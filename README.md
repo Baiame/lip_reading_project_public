@@ -1,7 +1,7 @@
 # Automated Lip Reading
 ## Description of the project
 This project aims to develop and test different lip reading algorithms on words and on sentences, using the GRID Corpus Dataset.
-- Link to the project: https://github.com/Baiame/lip_reading_project.
+- Link to the project: https://github.com/Baiame/lip_reading_project_public.
 - Weights and predictor can be found at this address : https://drive.google.com/drive/folders/13qP89f225QIiHfvf7LUDiWH6aREzjew5?usp=sharing
 - The GRID Corpus dataset can be downloaded at this address: http://spandh.dcs.shef.ac.uk/gridcorpus/
 ------------------------------------
