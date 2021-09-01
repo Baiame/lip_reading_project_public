@@ -24,7 +24,7 @@ from array_text_conversion import *
 #########################################################################
 
 
-PATH_TO_SHAPE_PREDICTOR = "./shape_predictor_68_face_landmarks.dat"
+PATH_TO_SHAPE_PREDICTOR = "./sentence_lip_reading/shape_predictor_68_face_landmarks.dat"
 
 triggered = False
 
