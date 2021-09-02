@@ -61,9 +61,9 @@ This project aims to develop and test different lip reading algorithms on words 
 
 ### How to run
 #### Testing
-Change path of weights file and of the test files
+Change path of weights file and of the test files in _test.py_
 Run _test.py_
 #### Training
-Compute the dataset
+Compute the dataset using the GRID Corpus dataset link
 Run _train_one_word.py_
 
