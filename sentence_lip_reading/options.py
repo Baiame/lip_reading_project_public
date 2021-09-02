@@ -10,14 +10,14 @@ training_method = 'unseen'
 model_name = 'dense3d_transformer'
 
 # Path to the folder that contains the lip videos (frames)
-video_path = 'C:/Users/aurel/Downloads/grid_dataset_downloaded/lip/'
+video_path = '...absolute_path.../fraction_processed_dataset_slr/lip/'
 
 # Paths to the txt file that contains the path of the folders for training and validation
-training_list = 'C:/Users/aurel/Downloads/grid_dataset_downloaded/scenario_unseen_train_list.txt'
-validation_list = 'C:/Users/aurel/Downloads/grid_dataset_downloaded/scenario_unseen_val_list.txt'
+training_list = '...absolute_path.../fraction_processed_dataset_slr/video_paths_list_training.txt'
+validation_list = '...absolute_path.../fraction_processed_dataset_slr/video_paths_list_validation.txt'
 
 # Path to the folder that contains the alignment files
-alignment_path = 'C:/Users/aurel/Downloads/grid_dataset_downloaded/GRID_align_txt/'
+alignment_path = '...absolute_path.../fraction_processed_dataset_slr/alignment/'
 
 # Padding value for the video and the text
 padding_video = 75
@@ -41,7 +41,7 @@ display = 1
 test_step = 2000
 
 # Path to save the model
-save_model_path = f'C:/Users/aurel/Downloads/grid_dataset_downloaded/trained_models/model_{training_method}_{model_name}'
+save_model_path = f'...path_to_where_you_want.../model_{training_method}_{model_name}'
 
 # If true: Optimize the model that is located under the 'weights' path or a new model if no path is given
 optimize = True

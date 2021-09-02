@@ -41,7 +41,8 @@ This project aims to develop and test different lip reading algorithms on words 
 
 #### Training
 - To train a new model, comment the _weights_ line in _options.py_ otherwise it will continue to train the existing model under the _weights_ path.
-- Modify the video_path_, training_list and validation_list paths in the _options.py_ file. These paths must link to the dataset folder, and the train and validation text files. Modify save_model_path as well
+- Download and extract _fraction_processed_dataset_slr_ from the given link above. It contains the lips frames, the alignment files and the txt files that contain the paths of the videos for training and validation.
+- Modify, in the _options.py_ file, the video_path (links to _lips_ folder), the alignment_path (links to _alignment_ folder),the training_list (links to _video_paths_list_training.txt_) and the validation_list (links to _video_paths_list_validation.txt_). These paths must link to the dataset folder, and the train and validation text files. Modify save_model_path as well, to where you want.
 - Run train_model.py
 
 -----------------------------------
