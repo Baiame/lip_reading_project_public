@@ -61,9 +61,10 @@ This project aims to develop and test different lip reading algorithms on words 
 
 ### How to run
 #### Testing
-Change path of weights file and of the test files in _test.py_
-Run _test.py_
+- Change path of weights file and of the test files in _test.py_
+- Add the _shape_predictor_68_face_landmarks.dat_ file in the _word_lipreading_ folder if missing.
+- Run _test.py_
 #### Training
-Compute the dataset using the GRID Corpus dataset link
-Run _train_one_word.py_
+- Compute the dataset using the GRID Corpus dataset link
+- Run _train_one_word.py_
 
