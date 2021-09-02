@@ -6,7 +6,7 @@ letters = [' '] + list(string.ascii_uppercase)
 
 def convert_text_to_array(text, start=1):
         """
-        Compute the corresponding array, given a text
+        Compute the corresponding array given a text
         """
         array = []
         for character in list(text):

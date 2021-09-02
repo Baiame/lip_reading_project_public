@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# Implementation from DenseNet3D - see report
+# Implementation from DenseNet3D - see paper
 
 # Layer
 class _DenseLayer(nn.Sequential):

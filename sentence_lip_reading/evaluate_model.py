@@ -33,7 +33,10 @@ def decode_ctc(array):
     # (B, T, Emb=28) --> (B, T)
     array = array.argmax(-1)
     length = array.size(0)
-    return [ctc_convert_array_to_text(array[_], start=1) for _ in range(length)]
+    text_array = []
+    for _ in range(length):
+        text_array.append(ctc_convert_array_to_text(array[_], start=1))
+    return text_array
 
 ###################################################################################
 

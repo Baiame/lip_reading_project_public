@@ -148,7 +148,7 @@ def validation(model, network):
 
 
 def train(model, network):
-    """ Launch the training process, using a model and a DataParallel object (network)
+    """ Launch the training process, using a model and a DataParallel object (network). Inspired from LipNet
     """
 
     torch.manual_seed(options.seed)

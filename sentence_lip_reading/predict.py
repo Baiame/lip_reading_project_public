@@ -120,7 +120,7 @@ if (__name__ == '__main__'):
             print('Raw prediction : ' + pred_txt)
             print('Corrected prediction : ' + corrected_pred_text)
 
-            # Compute WER and CER
+            # Compute the WER and the CER
             wer = compute_wer([corrected_pred_text], [truth_list[i]])[0]
             wer_list.append(wer)
             cer = compute_cer([corrected_pred_text], [truth_list[i]])[0]

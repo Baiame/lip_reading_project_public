@@ -3,7 +3,7 @@ import numpy as np
 
 def HorizontalFlip(batch_of_images, p=0.5):
     """
-    Reverse the entire rows and columns of the video pixels, with a probability p
+    Reverse the entire rows and columns of the video pixels, with a probability p (default 0.5)
     """
     # Input size : (T, H, W, C)
     if random.random() > p:
@@ -12,7 +12,7 @@ def HorizontalFlip(batch_of_images, p=0.5):
 
 def RandomDeleting(batch_of_images, p=0.05):
     """
-    Delete frame with probability p
+    Delete frames with probability p
     """
     # Input size : (T, H, W, C)
     for idx, image in enumerate(batch_of_images):

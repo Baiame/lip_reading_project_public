@@ -46,7 +46,7 @@ dict_labels = {
 
 class FrameAccumulator():
     """
-    When triggered, can be used to store the frames of the webcam
+    When triggered, can be used to store the frames of the webcam.
     """
     def __init__(self):
         self.num_frames = 0
